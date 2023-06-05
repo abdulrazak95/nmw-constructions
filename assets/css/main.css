@@ -2519,12 +2519,10 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
 		border: 0;
 		display: inline-block;
 		position: relative;
 		overflow: hidden;
-		
 	}
 		.image:before {
 			content: '';
@@ -2532,14 +2530,12 @@ input, select, textarea {
 			position: absolute;
 			left: 0;
 			top: 0;
-			background-image: url("images/overlay.png");
 			width: 100%;
 			height: 100%;
 			z-index: 1;
 		}
 
 		.image img {
-			border-radius: 10px;
 			display: block;
 		}
 
@@ -3384,7 +3380,7 @@ input, select, textarea {
 	}
 
 	#header {
-		background: rgba(186, 65, 65, 0.965);
+		background: rgba(39, 40, 51, 0.965);
 		box-shadow: 0 0 0.25em 0 rgba(241, 5, 5, 0.25);
 		cursor: default;
 		height: 3.5em;
@@ -3452,7 +3448,6 @@ input, select, textarea {
 	}
 
 	body.landing #header {
-		background: transparent;
 		box-shadow: none;
 		position: absolute;
 	}
@@ -3462,10 +3457,10 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #db5d57;
-		background-image: url("../../images/banner.jpg");
+		background-image: url("../../images//Electricity.jpg");
 		background-position: center center;
 		background-size: cover;
-		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
+		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.10);
 		min-height: 100vh;
 		position: relative;
 		text-align: center;
@@ -3481,10 +3476,10 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.9), rgba(23, 24, 32, 0.9)), url("images/overlay.png");;
+			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.9), rgba(23, 24, 32, 0.9)), url("images/overlay.png");;
+			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.9), rgba(23, 24, 32, 0.9)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.9), rgba(23, 24, 32, 0.9)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3521,16 +3516,15 @@ input, select, textarea {
 				}
 
 			#banner .content .image {
-				border-radius: 100%;
+				border-radius: 12px;
 				display: inline-block;
-				height: 18em;
 				margin-left: 3em;
 				vertical-align: middle;
-				width: 18em;
+				width: 30em;
+				height: 20em;
 			}
 
 				#banner .content .image img {
-					border-radius: 100%;
 					display: block;
 					width: 100%;
 				}
@@ -4118,4 +4112,23 @@ input, select, textarea {
 						padding: 0;
 					}
 
+
+	
+
+	}
+
+	.secondary-accent {
+		background-color: #66BB6A;
+	}
+
+	.main-background {
+		background-color: #004D7F;
+	}
+
+	.secondary-accent {
+		background-color: #66BB6A;
+	}
+
+	.secondary-accent {
+		background-color: #66BB6A;
 	}
